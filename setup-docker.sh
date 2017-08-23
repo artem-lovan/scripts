@@ -1,3 +1,4 @@
+# run "sudo su" before call this bash
 apt-get -y update
 apt-get install -y git python-yaml python-jinja2 python-pycurl
 git clone https://github.com/ansible/ansible.git

@@ -12,8 +12,6 @@ yes Y | sudo apt-get update \
     && yes Y | sudo apt-get install default-jdk \
     && yes Y | sudo apt-get install default-jre \
     && yes Y | sudo apt-get install maven \
-    && yes Y | sudo apt install docker.io \
-    && yes Y | sudo apt install docker-compose \
     && yes Y | sudo apt-get install curl \
     && yes Y | sudo apt-get install wget
 
